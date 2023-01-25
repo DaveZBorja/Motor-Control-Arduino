@@ -1,3 +1,8 @@
+/*
+ Date: 1/25/2023
+ By: Dave Borja
+*/
+
 #include <LiquidCrystal_I2C.h>
 
 #define potentiometer  A0  //10k Variable Resistor

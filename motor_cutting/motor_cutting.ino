@@ -10,10 +10,10 @@
 #define bt_S A2 // Stop Button
 #define bt_B A3 // Anticlockwise Button
 
-#define in1 11 //Motor  L298 Pin in1 
-#define in2 10 //Motor  L298 Pin in2 
-#define in3 9  //Motor  L298 Pin in3 
-#define in4 8  //Motor  L298 Pin in4
+#define in1 8 //Motor  L298 Pin in1 
+#define in2 9 //Motor  L298 Pin in2 
+#define in3 10  //Motor  L298 Pin in3 
+#define in4 11 //Motor  L298 Pin in4
 
 LiquidCrystal_I2C lcd(0x27,16,2);  // set the LCD address to 0x27 for a 16 chars and 2 line display
 LiquidCrystal_I2C lcd2(0x26,16,2); // set the lcd address to 0x26 for a 16 char and 2 line display
